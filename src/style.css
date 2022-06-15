@@ -69,3 +69,11 @@ margin-bottom: 44px;
 color:#61DAFB;
 font-size: 25px;
 }
+
+.background-image {
+  position: absolute;
+    right: 2px;
+    top: 212px;
+    width: 100;
+    width: 20%;
+}

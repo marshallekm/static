@@ -1,4 +1,5 @@
 import React from 'react'
+import largeLogo from "../images/react-icon-large.png"
 
 export default function Main(){
   return (
@@ -13,6 +14,7 @@ export default function Main(){
         <li className="list-item">Is maintained by Facebook</li>
         <li className="list-item">Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
+      <img src={largeLogo} className= "background-image" />
     </div>
   )
 }
